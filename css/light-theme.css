@@ -1,0 +1,143 @@
+body {
+    color: #1f1f1f;
+}
+
+.btn {
+    color: #fff;
+}
+
+.phone__item {
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+.phone__item:hover {
+    color: #1f1f1f;
+    background: #fff;
+}
+
+.phone__item--accent:hover {
+    color: #fff;
+}
+
+.btn-menu__inner::before,
+.btn-menu__inner::after,
+.btn-menu__inner {
+    background: #fff;
+}
+
+.catalog-nav__wrapper {
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.catalog-nav__btn {
+    color: #e6e6e6;
+    border-right: 1px solid #e5e5e5;
+}
+
+.catalog-nav__btn.is-active {
+    background: #1f1f1f;
+    color: #fff;
+    border-color: #1f1f1f;
+}
+
+.catalog-nav__btn:not(.is-active):hover {
+    color: #fff;
+}
+
+.catalog__item::before {
+    background: #f7f7f7;
+}
+
+@media (max-width: 767px) {
+    .catalog__product {
+        border-bottom: 2px solid #f7f7f7;
+    }
+}
+
+.product__description {
+    color: #9f9f9f;
+}
+
+.product__sizes {
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.product__size {
+    color: #e6e6e6;
+}
+
+.product__checker {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+.btn-close::before,
+.btn-close::after {
+    background: #d2d2d2;
+}
+
+.mobile-menu__link:hover {
+    color: #fff;
+}
+
+.order__subtitle {
+    color: #a2a2a2;
+}
+
+.order__size {
+    color: #a2a2a2;
+}
+
+.form__input {
+    background: #f7f7f7;
+}
+
+.footer-page {
+    background: linear-gradient(to top, #2d2c2c, #1f1f1f);
+}
+
+.footer-page__text {
+    color: rgba(255, 255, 255, .3);
+}
+
+.header-page {
+    background: rgba(11, 20, 25, 0.9);
+}
+
+.header-page__link {
+    color: #fff;
+}
+
+.header-page__link::before {
+    background: #fff;
+}
+
+.header-page__link:hover {
+    color: #1f1f1f;
+}
+
+.popup {
+    background: rgba(0, 0, 0, .7);
+}
+
+.popup__content {
+    background: #fff;
+}
+
+.section-about {
+    background: linear-gradient(to top, #2d2c2c, #1f1f1f);
+    color: #fff;
+}
+
+.section-top {
+    background: #0e1419 url(img/tamara-bellis-68csPWTnafo-unsplash.jpg) no-repeat center;
+    color: #fff;
+}
+
+.section-top::before {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.btn-up {
+    color: #fff;
+}
