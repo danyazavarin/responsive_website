@@ -165,6 +165,10 @@ img {
 
 .section__header {
     margin-bottom: 90px;
+    position: sticky;
+    top: -2em;
+    min-height: 2em;
+    z-index: 2;
 }
 
 @media (max-width: 576px) {
@@ -217,7 +221,7 @@ img {
 
 .catalog-nav__btn {
     border: 0;
-    background-color: transparent;
+    background-color: #fff;
     cursor: pointer;
     display: inline-block;
     text-align: center;
@@ -759,7 +763,7 @@ img {
     left: 0;
     width: 100%;
     z-index: 5;
-    background: rgba(11, 20, 25, 0.9);
+    background: rgba(11, 20, 25, 1);
     padding: 9px 0;
     overflow: hidden;
 }
@@ -889,6 +893,10 @@ img {
         font-size: 9px;
         padding: 3px 0;
         width: 50px;
+    }
+
+    .sticky {
+        top: -1em;
     }
 }
 
