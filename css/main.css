@@ -461,6 +461,14 @@ img {
     background: #b0763b;
 }
 
+.product__date {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    opacity: 0.5;
+    padding: 10px 0;
+}
+
 .catalog__all {
     text-align: center;
     font-size: 22px;

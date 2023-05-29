@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/light-theme.css" id="theme">
 
-    <title>Document</title>
+    <title>Responsive website</title>
 </head>
 <body>
 
@@ -120,6 +120,7 @@
                             </div>
                             <button class="btn product__btn" type="button" data-popup="popup-order">заказать</button>
                         </div>
+                        <div class="product__date">ferum</div>
                     </footer>
                 </div>
             </div>
@@ -1113,9 +1114,26 @@
                         <input class="order-info-title" type="hidden" name="одежда">
                         <input class="order-info-price" type="hidden" name="цена">
                         <input class="order-info-size" type="hidden" name="размер">
+                        <p>Выберите цвет:</p>
+                        <div>
+                            <input type="radio" id="contactChoice1"
+                                   name="contact" value="email">
+                            <label for="contactChoice1">Email</label>
+
+                            <input type="radio" id="contactChoice2"
+                                   name="contact" value="phone">
+                            <label for="contactChoice2">Phone</label>
+
+                            <input type="radio" id="contactChoice3"
+                                   name="contact" value="mail">
+                            <label for="contactChoice3">Mail</label>
+                        </div>
+                        <input class="form__input" type="text" name="amount" placeholder="Количество единиц товара"
+                               required>
                         <input class="form__input" type="text" name="имя" placeholder="Имя" required>
                         <input class="form__input" type="text" name="телефон" placeholder="Телефон" required>
                         <input class="form__input" type="text" name="адрес" placeholder="Адрес" required>
+                        <textarea class="form__input" maxlength="2000" placeholder="Ваш комментарий"></textarea>
                         <select class="form__input" name="оплата">
                             <option value="Оплата наличными">Оплата наличными</option>
                             <option value="Оплата картой">Оплата картой</option>
@@ -1187,6 +1205,7 @@
 <script src="js/form.js"></script>
 <script src="js/btn-up.js"></script>
 <script src="js/switcher.js"></script>
+<script src="js/getDay.js"></script>
 
 
 </body>
